@@ -116,7 +116,7 @@ void loop() {
   Serial.println("\n--- New Calculation ---");
   processInput();
 
-  // Prompt user to continue or exit
+  // Notify user to continue or exit
   Serial.println("\nDo you want to perform another calculation? (y/n):");
   while (Serial.available() == 0) { ; } // Wait for input
   char response = Serial.read();
