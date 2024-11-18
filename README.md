@@ -7,7 +7,7 @@ This project implements a program for the ESP32 using Arduino IDE to calculate c
 
 The program reads dimensions (n, A, and B) from the Serial Monitor, computes areas dynamically, and displays the results. The logic runs in a loop, allowing repeated calculations.
 ________________________________________
-Features:
+# Features:
 
   	Dynamic Input: Supports user-defined rows (n), column widths (A), and row heights (B).
 
